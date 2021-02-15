@@ -1,9 +1,9 @@
-#!/usr/bin/python3
-import logging
+
 import argparse
+import logging
 
 from get_app_code import get_app_code
-from get_app_token import  get_app_token
+from get_app_token import get_app_token
 from get_slid_user_token import get_slid_user_token
 from get_slnet_token import get_slnet_token
 

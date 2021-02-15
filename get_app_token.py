@@ -1,8 +1,9 @@
-#!/usr/bin/python3
-import logging
-import requests
-import hashlib
+
 import argparse
+import hashlib
+import logging
+
+import requests
 
 __author__ = "Kosterev Grigoriy <kosterev@starline.ru>"
 __date__ = "13.10.2018"

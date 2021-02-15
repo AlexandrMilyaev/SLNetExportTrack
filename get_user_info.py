@@ -1,13 +1,8 @@
-#!/usr/bin/python3
-import logging
-import requests
-import argparse
 
-from auth import auth
-from get_app_code import get_app_code
-from get_app_token import get_app_token
-from get_slid_user_token import get_slid_user_token
-from get_user_id import get_user_id
+import argparse
+import logging
+
+import requests
 
 
 def get_user_info(user_id, slnet_token):
